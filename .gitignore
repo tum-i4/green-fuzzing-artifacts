@@ -1,3 +1,9 @@
+# MacOS files
+.DS_Store
+
+# VS Code editor
+.vscode
+
 # History files
 .Rhistory
 .Rapp.history
@@ -47,3 +53,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Jupyter notebook
+.ipynb_checkpoints
+
+# Temporary logfile
+tmp_log.txt
+
+# Only allow compressed variant
+fuzzer_cov_data.csv
