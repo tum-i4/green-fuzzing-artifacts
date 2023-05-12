@@ -4,6 +4,8 @@ Artifacts for the paper: ***Green Fuzzing :seedling:: A Saturation-based Stoppin
 
 ## :seedling: Publication
 
+<a href=""><img src="https://raw.githubusercontent.com/sphl/green-fuzzing-artifacts/main/paper_thumbnail.png" align="right" width="280"></a>
+
 - [Stephan Lipp](https://www.cs.cit.tum.de/sse/lipp/) (TU Munich)
 - [Daniel Elsner](https://www.cs.cit.tum.de/sse/elsner/) (TU Munich)
 - [Severin Kacianka](https://www.cs.cit.tum.de/sse/kacianka/) (TU Munich)
@@ -95,4 +97,4 @@ to install and load all required R packages.
 
 ### Pre-trained Vulnerability Prediction Models
 
-The pre-trained models can be found in the `./models` directory. Please refer to section `Green Fuzzing ... -> ML-based Vulnerability Prediction -> Vulnerability Prediction` in the `analysis.ipynb` notebook to see how these models can be used to predict potentially vulnerable functions.
+The pre-trained models can be found in the `./models` directory. Please refer to section `Green Fuzzing ... > ML-based Vulnerability Prediction > Vulnerability Prediction` in the `analysis.ipynb` notebook to see how these models can be used to predict potentially vulnerable functions.
