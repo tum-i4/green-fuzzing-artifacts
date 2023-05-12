@@ -91,10 +91,12 @@ to install and load all required R packages.
 
 #### Fuzzing Saturation / Stopping Criteria Analysis
 
-- `fuzzer_cov_data.csv`: ...
-- `fuzzer_cov_saturation.csv`: ...
-- `fuzzer_crashes.csv`: ...
+- `fuzzer_cov_data.csv`: Contains the code and bug coverage of various fuzzers at different time points (15-minute intervals) within 24-hour fuzzing campaigns.
+- `fuzzer_cov_saturation.csv`: Contains the times at which the fuzzing campaigns are terminated according to the different saturation-based stopping criteria examined in this study.
+- `fuzzer_crashes.csv`: Contains the fuzzer crashes, including the time points when they were triggered and the deduplication (column `Bug_ID`[^1]) for extracting the unique bugs.
 
 ### Pre-trained Vulnerability Prediction Models
 
 The pre-trained models can be found in the `./models` directory. Please refer to section `Green Fuzzing ... > ML-based Vulnerability Prediction > Vulnerability Prediction` in the `analysis.ipynb` notebook to see how these models can be used to predict potentially vulnerable functions.
+
+[^1]: Crashes with the same bug ID have the same top $N=3$ stack frames and are therefore considered to have the same underlying vulnerability.
