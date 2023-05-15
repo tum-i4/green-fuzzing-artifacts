@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+title: >-
+  Green Fuzzing
+message: >-
+  Please cite this software using these metadata.
+type: software
+authors:
+- given-names: Stephan
+  family-names: Lipp
+  email: stephan.lipp@tum.de
+  affiliation: Technical University of Munich
+- given-names: Daniel
+  family-names: Elsner
+  email: elsner.daniel@tum.de
+  affiliation: Technical University of Munich
+- given-names: Severin
+  family-names: Kacianka
+  email: Severin.Kacianka@tum.de
+  affiliation: Technical University of Munich
+- given-names: Pretschner
+  family-names: Alexander
+  email: Pretschner.Alexander@tum.de
+  affiliation: Technical University of Munich
+- given-names: Marcel
+  family-names: Böhme
+  email: marcel.boehme@mpi-sp.org
+  affiliation: Max Planck Institute for Security and Privacy
+- given-names: Sebastian
+  family-names: Banescu
+repository-code: 'https://github.com/tum-i4/green-fuzzing-artifacts.git'
+keywords:
+- Fuzzing
+preferred-citation:
+  authors:
+  - given-names: Stephan
+    family-names: Lipp
+    email: stephan.lipp@tum.de
+    affiliation: Technical University of Munich
+  - given-names: Daniel
+    family-names: Elsner
+    email: elsner.daniel@tum.de
+    affiliation: Technical University of Munich
+  - given-names: Severin
+    family-names: Kacianka
+    email: Severin.Kacianka@tum.de
+    affiliation: Technical University of Munich
+  - given-names: Pretschner
+    family-names: Alexander
+    email: Pretschner.Alexander@tum.de
+    affiliation: Technical University of Munich
+  - given-names: Marcel
+    family-names: Böhme
+    email: marcel.boehme@mpi-sp.org
+    affiliation: Max Planck Institute for Security and Privacy
+  - given-names: Sebastian
+    family-names: Banescu
+  keywords:
+    - Fuzzing
+  status: preprint
+  title: "Green Fuzzing: A Saturation-based Stopping Criterion using Vulnerability Prediction"
+  year: 2023
+  conference:
+    name: "ISSTA '23"
+    website: https://conf.researchr.org/home/issta-2023
+  collection-type: proceedings
+  collection-title: 'ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)'
+  type: conference-paper
