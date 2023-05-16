@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 title: >-
-  Green Fuzzing
+  "Artifacts for the paper: 'Green Fuzzing: A Saturation-based Stopping Criterion using Vulnerability Prediction'"
 message: >-
-  Please cite this software using these metadata.
-type: software
+  Please cite these paper artifacts using this metadata.
+type: data
 authors:
 - given-names: Stephan
   family-names: Lipp

@@ -19,7 +19,7 @@ Artifacts for the paper: ***Green Fuzzing :seedling:: A Saturation-based Stoppin
     author    = {Lipp, Stephan and Elsner, Daniel and Kacianka, Severin and Pretschner, Alexander and B{\"o}hme, Marcel and Banescu, Sebastian},
     year      = 2023,
     booktitle = {Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis},
-    series    = {ISSTA'23},
+    series    = {ISSTA '23},
     numpages  = 13
 }
 ```
@@ -40,7 +40,7 @@ The analysis performed in this study is made available in the form of an [R](htt
 
 Follow the steps below to run `analysis.ipynb` using JupyterLab.
 
-#### Step 1: Creating a JupyterLab Docker Container
+#### **Step 1:** Creating a JupyterLab Docker Container
 
 Run the command
 
@@ -54,17 +54,17 @@ Here, `<artifact-dir>` must be replaced with the directory path to this artifact
 
 After downloading the image, a Jupyter server container is automatically launched, with the container's internal port `8888` exposed to the same port on the host machine.
 
-#### Step 2: Opening the Jupyter Notebook
+#### **Step 2:** Opening the Jupyter Notebook
 
 Launch JupyterLab by entering `http://127.0.0.1:8888/?token=<token>` in your web browser, with `<token>` being output to the terminal in **step 1**. Next, navigate in the file browser (left pane) to the directory containing the artifacts and open the `analysis.ipynb` notebook.
 
-#### Step 3: Installing Required R Packages
+#### **Step 3:** Installing Required R Packages
 
 In the notebook, first run
 
 ```r
 install.packages("pacman")
-library(pacman)`
+library(pacman)
 ```
 
 to install the R package manager [pacman](https://www.rdocumentation.org/packages/pacman/versions/0.5.1).
