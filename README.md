@@ -4,7 +4,7 @@ Artifacts for the paper: ***Green Fuzzing :seedling:: A Saturation-based Stoppin
 
 ## :seedling: Publication
 
-<a href=""><img src="https://raw.githubusercontent.com/sphl/green-fuzzing-artifacts/main/paper_thumbnail.png" align="right" width="280"></a>
+<a href="https://raw.githubusercontent.com/sphl/green-fuzzing-artifacts/main/paper_preprint.pdf"><img src="https://raw.githubusercontent.com/sphl/green-fuzzing-artifacts/main/paper_thumbnail.png" align="right" width="280"></a>
 
 - [Stephan Lipp](https://www.cs.cit.tum.de/sse/lipp/) (TU Munich)
 - [Daniel Elsner](https://www.cs.cit.tum.de/sse/elsner/) (TU Munich)
