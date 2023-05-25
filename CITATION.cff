@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: >-
-  "Artifacts for the paper: 'Green Fuzzing: A Saturation-based Stopping Criterion using Vulnerability Prediction'"
+  "Artifacts for the paper: 'Green Fuzzing: A Saturation-Based Stopping Criterion using Vulnerability Prediction'"
 message: >-
   Please cite these paper artifacts using this metadata.
 type: data
@@ -57,11 +57,12 @@ preferred-citation:
   keywords:
     - Fuzzing
   status: preprint
-  title: "Green Fuzzing: A Saturation-based Stopping Criterion using Vulnerability Prediction"
+  title: "Green Fuzzing: A Saturation-Based Stopping Criterion using Vulnerability Prediction"
   year: 2023
   conference:
     name: "ISSTA '23"
     website: https://conf.researchr.org/home/issta-2023
   collection-type: proceedings
   collection-title: 'ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)'
+  doi: 10.1145/3597926.3598043
   type: conference-paper

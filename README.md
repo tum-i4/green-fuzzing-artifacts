@@ -1,6 +1,6 @@
 # green-fuzzing-artifacts
 
-Artifacts for the paper: ***Green Fuzzing :seedling:: A Saturation-based Stopping Criterion using Vulnerability Prediction***
+Artifacts for the paper: ***Green Fuzzing :seedling:: A Saturation-Based Stopping Criterion using Vulnerability Prediction***
 
 ## :seedling: Publication
 
@@ -15,10 +15,11 @@ Artifacts for the paper: ***Green Fuzzing :seedling:: A Saturation-based Stoppin
 
 ```bibtex
 @inproceedings{GreenFuzzing2023,
-    title     = {Green Fuzzing: A Saturation-based Stopping Criterion using Vulnerability Prediction},
+    title     = {Green Fuzzing: A Saturation-Based Stopping Criterion using Vulnerability Prediction},
     author    = {Lipp, Stephan and Elsner, Daniel and Kacianka, Severin and Pretschner, Alexander and B{\"o}hme, Marcel and Banescu, Sebastian},
     year      = 2023,
     booktitle = {Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis},
+    doi       = {10.1145/3597926.3598043},
     series    = {ISSTA'23},
     numpages  = 13
 }
