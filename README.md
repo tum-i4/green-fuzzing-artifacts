@@ -98,6 +98,6 @@ to install and load all required R packages.
 
 ### Pre-trained Vulnerability Prediction Models
 
-The pre-trained models can be found in the `./models` directory. Please refer to section `Green Fuzzing ... > ML-based Vulnerability Prediction > Vulnerability Prediction` in the `analysis.ipynb` notebook to see how these models can be used to predict potentially vulnerable functions.
+The pre-trained models can be found in the `models` directory. Please refer to section `Green Fuzzing ... > ML-based Vulnerability Prediction > Vulnerability Prediction` in the `analysis.ipynb` notebook to see how these models can be used to predict potentially vulnerable functions.
 
 [^1]: Crashes with the same bug ID have the same top $N=3$ stack frames and are therefore considered to have the same underlying vulnerability.
