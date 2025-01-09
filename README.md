@@ -1,6 +1,6 @@
 # green-fuzzing-artifacts
 
-Artifacts for the paper: ***Green Fuzzing :seedling:: A Saturation-Based Stopping Criterion using Vulnerability Prediction***
+Artifacts for the paper: ***Green Fuzzing: A Saturation-Based Stopping Criterion using Vulnerability Prediction***
 
 ## :seedling: Publication
 
@@ -17,11 +17,11 @@ Artifacts for the paper: ***Green Fuzzing :seedling:: A Saturation-Based Stoppin
 @inproceedings{GreenFuzzing2023,
     title     = {Green Fuzzing: A Saturation-Based Stopping Criterion using Vulnerability Prediction},
     author    = {Lipp, Stephan and Elsner, Daniel and Kacianka, Severin and Pretschner, Alexander and B{\"o}hme, Marcel and Banescu, Sebastian},
-    year      = 2023,
+    year      = {2023},
     booktitle = {Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis},
-    doi       = {10.1145/3597926.3598043},
     series    = {ISSTA'23},
-    numpages  = 13
+    doi       = {10.1145/3597926.3598043},
+    numpages  = {13}
 }
 ```
 
@@ -86,15 +86,15 @@ to install and load all required R packages.
 
 #### ML-based Vulnerability Prediction
 
-- `ml_feature_data.csv`: Contains the feature data to train and test the machine-learned vulnerability prediction models.
-- `ml_model_config.csv`: Contains the ML models and cutoff values for each subject program that we use in the evaluation.
-- `ml_vuln_prediction.csv`: Contains the vulnerability prediction (i.e., the potentially vulnerable functions) of the programs used for the tradeoff analysis of our (saturation-based) fuzzing stopping criterion.
+- `data/ml_feature_data.csv`: Contains the feature data to train and test the machine-learned vulnerability prediction models.
+- `data/ml_model_config.csv`: Contains the ML models and cutoff values for each subject program that we use in the evaluation.
+- `data/ml_vuln_prediction.csv`: Contains the vulnerability prediction (i.e., the potentially vulnerable functions) of the programs used for the tradeoff analysis of our (saturation-based) fuzzing stopping criterion.
 
 #### Fuzzing Saturation / Stopping Criteria Analysis
 
-- `fuzzer_cov_data.csv`: Contains the code and bug coverage of various fuzzers at different time points (15-minute intervals) within 24-hour fuzzing campaigns.
-- `fuzzer_cov_saturation.csv`: Contains the times at which the fuzzing campaigns are terminated according to the different saturation-based stopping criteria examined in this study.
-- `fuzzer_crashes.csv`: Contains the fuzzer crashes, including the time points when they were triggered and the deduplication (column `Bug_ID`[^1]) for extracting the unique bugs.
+- `data/fuzzer_cov_data.csv`: Contains the code and bug coverage of various fuzzers at different time points (15-minute intervals) within 24-hour fuzzing campaigns.
+- `data/fuzzer_cov_saturation.csv`: Contains the times at which the fuzzing campaigns are terminated according to the different saturation-based stopping criteria examined in this study.
+- `data/fuzzer_crashes.csv`: Contains the fuzzer crashes, including the time points when they were triggered and the deduplication (column `Bug_ID`[^1]) for extracting the unique bugs.
 
 ### Pre-trained Vulnerability Prediction Models
 
