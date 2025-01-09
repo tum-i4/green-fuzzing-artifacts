@@ -1,4 +1,4 @@
-# green-fuzzing-artifacts
+# Green Fuzzing Artifacts
 
 Artifacts for the paper: ***Green Fuzzing: A Saturation-Based Stopping Criterion using Vulnerability Prediction***
 
